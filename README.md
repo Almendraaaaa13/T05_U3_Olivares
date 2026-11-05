@@ -25,3 +25,9 @@ Las tolerancias comprueban resultados; no confunda un test que pasa con validaci
 ## Preentrega
 Ejecute `python verificar_entrega.py .` para detectar archivos faltantes; no ejecuta el código ni reemplaza la rúbrica. Las advertencias son de estructura, no una nota.
 Tras verificar su entorno, registre sus versiones con `python -m pip freeze > requirements-lock.txt`. No incluya `.venv` en la entrega.
+
+## Revisión y reproducción adicional
+Los CSV y PNG de salidas conservan la ejecución recibida de Colab.
+Ejecute desde la raíz: `python src/verificar_resultados.py` y `python src/comparar_contornos.py`. Las pruebas y la comprobación analítica se repitieron en un entorno de revisión; registros/ identifica sus versiones, sin atribuirlas a Colab.
+Compile en informe/: `pdflatex main.tex`, `bibtex main`, `pdflatex main.tex`, `pdflatex main.tex`. En Overleaf suba el proyecto completo y seleccione informe/main.tex.
+Antes de entregar, complete URL real y hash completo en entrega.json, compruebe el acceso docente al repositorio y pruebe una copia extraída del ZIP. El PDF mantiene A4, 11 pt y márgenes de 2,4 cm. No se ha creado ni publicado un repositorio.
