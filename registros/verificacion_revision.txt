@@ -1,0 +1,5 @@
+n=2, fijo_derecho=False, residuo_libre_N=3.637978807092e-12, balance_relativo=0.000000000000e+00: OK
+n=4, fijo_derecho=False, residuo_libre_N=1.455191522837e-11, balance_relativo=5.456968210638e-16: OK
+n=8, fijo_derecho=False, residuo_libre_N=5.820766091347e-11, balance_relativo=9.094947017729e-16: OK
+n=8, fijo_derecho=True, residuo_libre_N=3.637978807092e-12, balance_relativo=0.000000000000e+00: OK
+Referencia, error, residuos y reacciones verificados.

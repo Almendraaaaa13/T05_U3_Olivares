@@ -1,0 +1,3 @@
+Revisión: ejecución directa de funciones de prueba (pytest no disponible en este entorno).
+test_control_sin_carga_distribuida: PASS
+test_equilibrio_con_contorno_alterado: PASS

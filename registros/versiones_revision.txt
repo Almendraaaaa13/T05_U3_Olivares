@@ -1,0 +1,4 @@
+Entorno de revisión asistida, distinto de Colab
+Python=3.12.14
+NumPy=2.3.5
+Matplotlib=3.10.8
